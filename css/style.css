@@ -40,14 +40,16 @@
 	height: 10%;
 	width: 100%;
 	opacity: 80%;
+	position: sticky;
+	top: 0;
 }
 
 .top_con .top_bar .top-left{
-	position: absolute;
+	position: fixed;
 	left: 30px;
 }
 .top_con .top_bar .top-left{
-	padding-top: 10px;
+	padding-top: 20px;
 	font-weight: bold;
 	font-size: 30px;
 }
@@ -86,10 +88,12 @@
 }
 
 .top_con .top_bar .top-right{
-	position: absolute;
+	position: fixed;
 	right: 0;
 }
 
 div.main{
 	background-color: white;
+	height: 100%;
+	padding-top:100%;
 }
