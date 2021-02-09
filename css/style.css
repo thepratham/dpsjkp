@@ -8,6 +8,8 @@
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
+	position: absolute;
+	top: 0px;
 }
 
 .top_con .header-content h1{
@@ -18,7 +20,7 @@
 	opacity: 50%;
 	width: 35%;
 	padding: 10px;
-	margin: 15% auto 0 auto;
+	margin: 20% auto 0 auto;
 	border-radius: 45%;
 	text-align: center;
 }
@@ -40,12 +42,13 @@
 	height: 10%;
 	width: 100%;
 	opacity: 80%;
-	position: sticky;
+	position: fixed;
 	top: 0;
 }
 
 .top_con .top_bar .top-left{
-	position: fixed;
+	position: absolute;
+	background: black;
 	left: 30px;
 }
 .top_con .top_bar .top-left{
@@ -57,10 +60,11 @@
 .top_con .top_bar .top-right{
 	font-weight: bold;
 	font-size: 20px;
+	background: black;
 }
 
 .top_con .top_bar .top-right .top_nav.nav nav.navbar{
-	padding-top: 10px;
+	padding-top: 5px;
 }
 .top_con .top_bar .top-right .top_nav.nav nav.navbar div.nav-item{
 	display: inline-flex;
