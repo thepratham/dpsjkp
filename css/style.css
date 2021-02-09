@@ -7,12 +7,13 @@
 	background: url("../img/lib.jpg") no-repeat center fixed;
 	background-size: cover;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 }
 
 .top_con .header-content h1{
 	font-size: 50px;
 	background-color: white;
+	/*color: #143a08;*/
 	color: black;
 	opacity: 50%;
 	width: 35%;
@@ -33,6 +34,7 @@
 	border-radius: 15%;
 }
 .top_con .top_bar{
+	/*background: #143a08;*/
 	background: black;
 	color: white;
 	height: 10%;
@@ -56,10 +58,11 @@
 }
 
 .top_con .top_bar .top-right .top_nav.nav nav.navbar{
-	padding-top: 5px;
+	padding-top: 10px;
 }
 .top_con .top_bar .top-right .top_nav.nav nav.navbar div.nav-item{
 	display: inline-flex;
+	/*background-color: #143a08;*/
 	background-color: black;
 	padding: 15px;
 }
