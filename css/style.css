@@ -6,7 +6,7 @@
 .top_con{
 	background: url("../img/lib.jpg") no-repeat center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 95vh;
 	width: 100%;
 	position: absolute;
 	top: 0px;
@@ -52,9 +52,24 @@
 	left: 30px;
 }
 .top_con .top_bar .top-left{
-	padding-top: 20px;
+	padding-top: 17px;
 	font-weight: bold;
 	font-size: 30px;
+}
+.top_con .top_bar .top-left *{
+	float: left;
+}
+.top_con .top_bar .top-left img{
+	height: 50px;
+	width: auto;
+	margin-right: 20px;
+	position: absolute;
+	top: 7px;
+}
+.top_con .top_bar .top-left span{
+	position: absolute;
+	left: 55px;
+	width: 500px;
 }
 
 .top_con .top_bar .top-right{
