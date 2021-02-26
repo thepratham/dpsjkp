@@ -65,11 +65,20 @@
 
 		<div class="container col-12 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-xm-12">
 
-			<form action="" class="form">
-				<input type="text" class="form-control form-item" name="fd_email" required="required" placeholder="Enter your email">
-				<input type="text" class="form-control form-item" name="fd_phone" placeholder="Enter your phone number">
+			<form action="sendmail.php" method="post" class="form">
+				<label for="name">Name:</label>
+				<input type="text" class="form-control form-item" name="fd_name" required="required" placeholder="Enter your full name">
+
+				<label for="email">Email:</label>
+				<input type="email" class="form-control form-item" name="fd_email" required="required" placeholder="Enter your email">
+
+				<label for="phone">Contact Number:</label>
+				<input type="text" class="form-control form-item" name="fd_phone" placeholder="Enter your contact number">
+
+				<label for="feedback">Feedback:</label>
 				<textarea name="feedback" class="form-control form-item" required="required" placeholder="Enter your feedback" cols="30" rows="10"></textarea>
-				<button class="btn btn-success form-control form-item" type="submit">Submit</button>
+
+				<button class="btn btn-success form-control form-item" name="submit" type="submit">Submit</button>
 			</form>
 
 		</div>

@@ -125,6 +125,20 @@ header#f_contact_header .top-con .top-bar .top-right{
 section#feedbacks .container .form{
 	margin-top: 0px;
 }
+section#feedbacks .container .form .form-item{
+	margin: 0px 0 20px 0;
+	font-size: 20px;
+}
+section#feedbacks .container .form .form-item:focus{
+	box-shadow: 0 0 0 0.2rem lightgreen;
+}
+section#feedbacks .container .form label{
+	font-size: 20px;
+	font-weight: bold;
+}
+section#feedbacks .container .form .form-item.btn{
+	height: 50px;
+}
 
 @media only screen and (max-width: 918px){
 	header#f_contact_header{

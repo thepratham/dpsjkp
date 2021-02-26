@@ -254,18 +254,6 @@ section#about .container div.about-con{
 	text-align: justify;
 }
 
-
-section#feedbacks .container .form{
-	margin-top: 50px;
-}
-section#feedbacks .container .form .form-item{
-	margin: 20px 0 20px 0;
-	font-size: 20px;
-}
-section#feedbacks .container .form .form-item.btn{
-	height: 50px;
-}
-
 .footer{
 	background-color: var(--theme);
 	color: white;
