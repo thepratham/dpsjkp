@@ -237,7 +237,7 @@ section#books .con .categories .book-icon img{
 	color: #f1f1f1;
 	width: 100%;
 	transition: .5s ease;
-	opacity:1;
+	opacity: 1;
 	color: white;
 	font-size: 20px;
 	padding: 20px;
@@ -247,9 +247,6 @@ section#books .con .categories .book-icon img{
 
 .book-icon:hover{
 	cursor: pointer;
-}
-.book-icon:hover .overlay{
-	opacity: 1;
 }
 
 
@@ -307,10 +304,11 @@ section#feedbacks .container .form .form-item.btn{
 	background-color: white;
 }
 ::-webkit-scrollbar-thumb{
-	background-color: grey;
+	background-color: var(--theme);
+	border-left: 1px solid white;
 }
 ::-webkit-scrollbar-thumb:hover{
-	background-color: grey;
+	background-color: var(--theme);
 }
 /*::-webkit-scrollbar-button{
 	background-color: white;
@@ -341,8 +339,5 @@ section#feedbacks .container .form .form-item.btn{
 	}
 	p{
 		font-size: 1.2rem;
-	}
-	.book-icon .overlay{
-  		opacity: 1;
 	}
 }
