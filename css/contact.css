@@ -1,0 +1,54 @@
+
+header#contact_header .top-con{
+	background-color: var(--theme);
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	padding: 20px 0 20px 0;
+}
+header#contact_header .top-con img{
+	height: 70px;
+	width: auto;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+}
+
+header#contact_header .top-con h5{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding-top: 10px;
+}
+
+.main-text{
+	color: black;
+	width: 100%;
+	text-align: center;
+	padding: 20px 20px 0px 20px;
+}
+
+.main-text p{
+	font-size: 20px;
+}
+.main-text p span{
+	font-weight: bold;
+}
+
+.main-text p a{
+	color: black;
+}
+
+.main-text p a:hover{
+	text-decoration: underline;
+}
+.main-text p a:active{
+	text-decoration: underline;
+}
+.main-text p a:focus{
+	text-decoration: underline;
+}
+
+section#feedbacks .container .form{
+	margin-top: 0px;
+}
