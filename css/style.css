@@ -237,7 +237,7 @@ section#books .con .categories .book-icon img{
 	color: #f1f1f1;
 	width: 100%;
 	transition: .5s ease;
-	opacity:0;
+	opacity:1;
 	color: white;
 	font-size: 20px;
 	padding: 20px;
