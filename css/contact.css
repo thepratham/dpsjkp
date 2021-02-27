@@ -123,7 +123,7 @@ header#f_contact_header .top-con .top-bar .top-right{
 	text-decoration: underline;
 }
 
-section#feedbacks .container .form{
+/*section#feedbacks .container .form{
 	margin-top: 0px;
 }
 section#feedbacks .container .form .form-item{
@@ -139,7 +139,7 @@ section#feedbacks .container .form label{
 }
 section#feedbacks .container .form .form-item.btn{
 	height: 50px;
-}
+}*/
 
 footer.footer{
 	position: absolute;

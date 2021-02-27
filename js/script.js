@@ -15,6 +15,24 @@ $(document).ready(function(){
 		window.location.href = "https://drive.google.com/drive/folders/1aw-zpSUqblnHCODWsVr8hraMMxBbwoOv?usp=sharing";
 	});
 	$("#periodicals").click(function(){
+		window.location.href = "periodicals.html";
+	});
+
+
+	// periodical icons
+	$("#jagran").click(function(){
 		// window.location.href = "https://drive.google.com/drive/folders/1eZYSuGoUI-PfGVA6Vy3UizOZZKokDgch?usp=sharing";
+	});
+	$("#amarujala").click(function(){
+		// window.location.href = "https://drive.google.com/drive/folders/1jFz7XZi3kJM-KXjWwmSfCXXc2fmvjK1N?usp=sharing";
+	});
+	$("#hindustantimes").click(function(){
+		// window.location.href = "https://drive.google.com/drive/folders/1GZVpVjcCPSQm496r5Z8Ga73fRBn4uuTm?usp=sharing";
+	});
+	$("#champak").click(function(){
+		// window.location.href = "https://drive.google.com/drive/folders/1HOPETo-oKyxi-_YZrORIkuXMOYb0jQA0?usp=sharing";
+	});
+	$("#jansatta").click(function(){
+		// window.location.href = "https://drive.google.com/drive/folders/1aw-zpSUqblnHCODWsVr8hraMMxBbwoOv?usp=sharing";
 	});
 });
