@@ -102,6 +102,11 @@ header#f_contact_header .top-con .top-bar .top-right{
 	padding: 20px 20px 0px 20px;
 }
 
+.main-text h1{
+	color: var(--theme);
+	font-weight: bold;
+}
+
 .main-text p{
 	font-size: 20px;
 }

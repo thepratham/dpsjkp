@@ -57,7 +57,7 @@ header#f_header .top-con{
 header#f_header .top-con .landing-text h1{
 	font-size: 50px;
 	background-color: white;
-	color: black;
+	color: var(--theme);
 	opacity: 50%;
 	width: 35%;
 	padding: 10px;
@@ -68,6 +68,7 @@ header#f_header .top-con .landing-text h1{
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	font-weight: bold;
 }
 header#f_header .top-con .landing-text p{
 	color: black;
