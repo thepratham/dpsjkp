@@ -141,6 +141,11 @@ section#feedbacks .container .form .form-item.btn{
 	height: 50px;
 }
 
+footer.footer{
+	position: absolute;
+	bottom: 0;
+}
+
 @media only screen and (max-width: 918px){
 	header#f_contact_header{
 		display: none;
