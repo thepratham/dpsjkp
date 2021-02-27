@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+	$(".m_nav_menu").hide();
+	$(".menu .cross").hide();
+
+	// book icons
 	$("#academics").click(function(){
 		window.location.href = "https://drive.google.com/drive/folders/1eZYSuGoUI-PfGVA6Vy3UizOZZKokDgch?usp=sharing";
 	});
@@ -35,4 +40,24 @@ $(document).ready(function(){
 	$("#jansatta").click(function(){
 		window.location.href = "https://epaper.jansatta.com/t/23814/?s=%E0%A4%B2%E0%A4%96%E0%A4%A8%E0%A4%8A";
 	});
+
+	// Mobile navigation
+	$(".menu .bars").click(function(){
+		$(".menu .bars").hide();
+		$(".menu .cross").show();
+		$(".m_nav_menu").show();
+	});
+
+	$(".menu .cross").click(function(){
+		$(".menu .bars").show();
+		$(".menu .cross").hide();
+		$(".m_nav_menu").hide();
+	});
+
+	$(".m_nav_menu ul li").click(function(){
+		$(".menu .bars").show();
+		$(".menu .cross").hide();
+		$(".m_nav_menu").hide();
+	});
+
 });
