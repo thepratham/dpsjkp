@@ -98,33 +98,34 @@ header#f_contact_header .top-con .top-bar .top-right{
 .main-text{
 	color: black;
 	width: 100%;
-	text-align: center;
 	padding: 20px 20px 0px 20px;
+	word-wrap: break-word;
 }
 
 .main-text h1{
 	color: var(--theme);
 	font-weight: bold;
+	text-align: center;
 }
 
 .main-text p{
 	font-size: 20px;
 }
-.main-text p span{
+.main-text span{
 	font-weight: bold;
 }
 
-.main-text p a{
+.main-text a{
 	color: var(--theme);
 }
 
-.main-text p a:hover{
+.main-text a:hover{
 	text-decoration: underline;
 }
-.main-text p a:active{
+.main-text a:active{
 	text-decoration: underline;
 }
-.main-text p a:focus{
+.main-text a:focus{
 	text-decoration: underline;
 }
 
