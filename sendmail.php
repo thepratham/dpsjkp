@@ -10,7 +10,7 @@ if (isset($_POST["submit"])){
 	$msg = wordwrap($msg,70);
 
 	// send email
-	mail("prathamgarg2010@gmail.com","Digital Library - Feedback",$msg);
+	mail("myprakhar96@gmail.com","Digital Library - Feedback",$msg, "From: prathamgarg2010@gmail.com");
 }
 
 ?>
